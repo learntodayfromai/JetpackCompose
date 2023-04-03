@@ -15,7 +15,7 @@ import com.learntodayfromai.jetpackcompose.ui.theme.JetpackComposeTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContent {
+        /*setContent {
             JetpackComposeTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
@@ -25,6 +25,9 @@ class MainActivity : ComponentActivity() {
                     Greeting("Android")
                 }
             }
+        }*/
+        setContent{
+            Text("Hello Me!")
         }
     }
 }
